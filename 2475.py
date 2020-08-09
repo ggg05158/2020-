@@ -1,0 +1,7 @@
+a,b,c,d,e=input().split( )
+a=eval(a)
+b=eval(b)
+c=eval(c)
+d=eval(d)
+e=eval(e)
+print(f"{(a**2+b**2+c**2+d**2+e**2)%10}")
